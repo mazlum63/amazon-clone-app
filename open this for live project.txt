@@ -1,0 +1,3 @@
+open this link for live project
+
+https://amazon-clone-app-puce.vercel.app/
