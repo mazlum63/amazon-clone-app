@@ -17,7 +17,7 @@ export default function Navbar() {
                 <ul className='flex text-white text-md flex-wrap'>
                     <li className='flex py-0.5 px-2 rounded-sm hover:outline outline-1'>
                         <Link href='#'>
-                            <a>Today's Deals</a>
+                            <a>{`Today's Deals`}</a>
                         </Link>
                     </li>
                     <li className='flex py-0.5 px-2 rounded-sm hover:outline outline-1'>

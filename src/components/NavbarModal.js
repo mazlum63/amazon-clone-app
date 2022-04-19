@@ -84,16 +84,16 @@ const NavbarModal = () => {
                                     <a href='#' className="menu__link">Beauty and personal care</a>
                                 </li>
                                 <li className="menu__item">
-                                    <a href='#' className="menu__link">Women's Fashion</a>
+                                    <a href='#' className="menu__link">{`Women's Fashion`}</a>
                                 </li>
                                 <li className="menu__item">
-                                    <a href='#' className="menu__link">Men's Fashion</a>
+                                    <a href='#' className="menu__link">{`Men's Fashion`}</a>
                                 </li>
                                 <li className="menu__item">
-                                    <a href='#' className="menu__link">Girls' Fashion</a>
+                                    <a href='#' className="menu__link">{`Girls' Fashion`}</a>
                                 </li>
                                 <li className="menu__item">
-                                    <a href='#' className="menu__link">Boys' Fashion</a>
+                                    <a href='#' className="menu__link">{`Boys' Fashion`}</a>
                                 </li>
                                 <li className="menu__item">
                                     <a href='#' className="menu__link">Health and Household</a>
