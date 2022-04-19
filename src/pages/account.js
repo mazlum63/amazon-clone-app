@@ -4,7 +4,7 @@ import Signin from '../components/Signin'
 import Profile from '../components/Profile'
 import { getAllItems } from '../lib/productItems'
 
-const signin = ({ products }) => {
+const Signin = ({ products }) => {
     const userInfo = useSelector(state => state.signin.user)
     return (
         <div>
@@ -13,7 +13,7 @@ const signin = ({ products }) => {
     )
 }
 
-export default signin
+export default Signin
 
 export async function getServerSideProps() {
     const products = await getAllItems()

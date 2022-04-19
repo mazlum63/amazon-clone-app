@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useEffect, useState } from 'react'
 import { getAllItems } from '../lib/productItems'
 
-const checkout = ({ products }) => {
+const Checkout = ({ products }) => {
     const basketItems = useSelector(state => state.basket.basketItems)
     useEffect(() => {
         const itemsTotal = 0
@@ -54,7 +54,7 @@ const checkout = ({ products }) => {
     )
 }
 
-export default checkout
+export default Checkout
 
 
 export async function getStaticProps() {
