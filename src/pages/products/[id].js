@@ -11,12 +11,12 @@ export default function Items({ productItems }) {
     const dispatch = useDispatch()
     return <>{
         productItems.map(item => item.id === parseInt(id) && (
-            <div className='bg-white product__page p-10'>
-                <div className="flex justify-center">
-                    <div style={{ height: '500px' }} className="item__image w-full flex justify-center">
-                        <img className='h-full' src={item.image} alt={item.title} />
+            <div key={item.id} className='bg-white product__page p-10'>
+                <div className="flex flex-col md:flex-row justify-center">
+                    <div style={{ height: '500px' }} className="item__image w-full mt-4 flex justify-center mr-4">
+                        <img className='h-full w-auto object-contain' src={item.image} alt={item.title} />
                     </div>
-                    <div className="item__details w-full">
+                    <div className="item__details w-full mt-4 ml-4">
                         <h1 className='font-medium text-2xl'>{item.title}</h1>
                         <p className='mt-4'>{item.description}</p>
                         <div className='flex items-center mt-2'>
